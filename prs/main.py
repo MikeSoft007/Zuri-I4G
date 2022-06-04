@@ -13,7 +13,7 @@ def determine_winner(player, cpu):
     if player == cpu:
         print(f"Both players selected {player}. It's a tie!")
     elif player == 'r':
-        if player == 'sc':
+        if player == 's':
             print("Rock smashes scissors! You win!")
         else:
             print("Paper covers rock! You lose.")
